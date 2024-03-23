@@ -1140,51 +1140,7 @@
 
 				</div>
 			</div>
-
-
-			<div id="specs">
-
-			</div>
-					<div class="grid5 sidebar">
-						<div class="box">
-							<h2>Troubleshooting<br />Font-Face Problems</h2>
-							<p>Having trouble getting your webfonts to load in your new website? Here are some tips to
-								sort out what might be the problem.</p>
-
-							<h3>Fonts not showing in any browser</h3>
-
-							<p>This sounds like you need to work on the plumbing. You either did not upload the fonts to
-								the correct directory, or you did not link the fonts properly in the CSS. If you've
-								confirmed that all this is correct and you still have a problem, take a look at your
-								.htaccess file and see if requests are getting intercepted.</p>
-
-							<h3>Fonts not loading in iPhone or iPad</h3>
-
-							<p>The most common problem here is that you are serving the fonts from an IIS server. IIS
-								refuses to serve files that have unknown MIME types. If that is the case, you must set
-								the MIME type for SVG to "image/svg+xml" in the server settings. Follow these
-								instructions from Microsoft if you need help.</p>
-
-							<h3>Fonts not loading in Firefox</h3>
-
-							<p>The primary reason for this failure? You are still using a version Firefox older than
-								3.5. So upgrade already! If that isn't it, then you are very likely serving fonts from a
-								different domain. Firefox requires that all font assets be served from the same domain.
-								Lastly it is possible that you need to add WOFF to your list of MIME types (if you are
-								serving via IIS.)</p>
-
-							<h3>Fonts not loading in IE</h3>
-
-							<p>Are you looking at Internet Explorer on an actual Windows machine or are you cheating by
-								using a service like Adobe BrowserLab? Many of these screenshot services do not render
-								@font-face for IE. Best to test it on a real machine.</p>
-
-							<h3>Fonts not loading in IE9</h3>
-
-							<p>IE9, like Firefox, requires that fonts be served from the same domain as the website.
-								Make sure that is the case.</p>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 
