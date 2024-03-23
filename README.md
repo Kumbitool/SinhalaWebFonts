@@ -9,7 +9,7 @@
 <a href="https://github.com/koombitool/SinhalaWebFonts/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/koombitool/SinhalaWebFonts?style=for-the-badge"></a>
   <a href="https://www.jsdelivr.com/package/npm/koombiwebfont"><p align="center"><img src="https://data.jsdelivr.com/v1/package/npm/koombiwebfont/badge"></p></a>
 <hr/>
-<h1 align="center">වෙබ් අඩවි සඳහා සිංහල ඇස්කි ෆොන්ට් එක. (It's Ascill Font)</h1><br>
+<h1 align="center">Sinhala ASCII Font as a webfont</h1><br>
 
 # How to install in your website...
 
@@ -54,7 +54,7 @@
 
 <img src="./contents/images/text.png" height="60px" title="Sample Preview Of Koombiweb Font" align="center">
 
-<h2 align="center">  💙 සියලුම උපදෙස් සදහා <a href="https://koombitool.github.io/SinhalaWebFonts">Koombiweb</a> වෙත පිවිසෙන්න... </h12<br>
+<h2 align="center">  💙 Instructions: <a href="https://koombitool.github.io/SinhalaWebFonts">Koombiweb</a>  </h12<br>
   </h2>
 
 `What's the new:`
