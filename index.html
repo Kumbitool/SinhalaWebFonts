@@ -51,7 +51,6 @@
 			<li><a href="#specimen">Home</a></li>
 			<li><a href="#layout">Sample Blog Post</a></li>
 			<li><a href="#glyphs">Glyphs &amp; Languages</a></li>
-			<li><a href="#installing">Install This Font</a></li>
 			<li><a href="https://github.com/Koombitool/sinhalawebfonts">Project Source</a></li>
 
 		</ul>
@@ -448,11 +447,7 @@
 			<div id="glyphs">
 				<div class="section">
 					<div class="grid12 firstcol">
-
-						<h1>භාෂා සහාය</h1>
-						<br />
 						<h2 style="margin-bottom: 18px;font-weight: normal;font-family: Iskoolapota;"><u>ග්ලයිෆ් සටහන</u></h2>
-						<h3 style="font-family: Iskoolapota;font-size: 18px;font-weight: normal;margin-bottom: 10px;">කූඹිවෙබ් ෆොන්ටින් හි මෙම උප කට්ටලයට පහත ලැයිස්තුගත කර ඇති සියලුම ග්ලයිෆ් ඇතුළත් වේ. ඔබේ පිරිසැලසුම (layout) තුළට එක් එක් අක්ෂර ඇතුළත් කිරීමට උපකාරී වන පරිදි එක් එක් ග්ලිෆ් එකට ඉහළින් යුනිකෝඩ් ආයතන ඇතුළත් කර ඇත.</h3>
 						<div id="glyph_chart">
 
 							<div>
@@ -1150,42 +1145,6 @@
 			<div id="specs">
 
 			</div>
-
-			<div id="installing">
-				<div class="section">
-					<div class="grid7 firstcol">
-						<h1>කූඹි වෙබ් ෆොන්ට් ස්ථාපනය කිරීම</h1>
-
-						<p>වෙබ් ෆොන්ට් වලට සියලුම ප්‍රධාන වෙබ් බ්‍රවුසර් මඟින් සහය දක්වන නමුත් ඒවා සියල්ලම එකම ආකාරයකින් ක්‍රියාත්මක නොවේ. සියලුම වෙබ් බ්‍රව්සර් ඉලක්ක කරගෙන භාවිත කිරීම සඳහා දැනට ඇතුළත් කළ යුතු ෆොන්ට් ආකෘති හතරක් තිබේ. මෙයට TTF, WOFF, EOT සහ SVG ඇතුළත් වේ.</p>
-
-						<h2>කූඹි වෙබ් ෆොන්ට් එකට අදාළ සියලු ගොනු (Files) ඔබගේ සේවාදායකයට (Webserver) අප්ලෝඩ් කරන්න.</h2>
-						<br>
-						<h2>2. කූඹි වෙබ් ෆොන්ට් එකට අදාළ Stylesheet එක ඇතුළත් කිරීම</h2>
-						<p>කූඹි වෙබ් ෆොන්ට් එක Stylesheet වෙත ඇතුළත් කිරීම සඳහා වූ කේතය පහත පරිදි වේ:</p>
-
-
-						<code>
-@font-face{
-	font-family: 'koombiweb';
-	src: url('WebFont.eot');
-	src: url('koombiweb.eot?#koombiweb') format('embedded-opentype'),
-	     url('koombiweb.woff') format('woff'),
-	     url('koombiweb.ttf') format('truetype'),
-	     url('koombiweb.svg#koombiweb') format('svg');
-}
-</code>
-
-						<p>අපි තවත් ඉදිරියට ගොස් ඔබ සඳහා Css Link කේතය generate කර දී ඇත. ඔබ කළ යුත්තේ ඔබේ HTML වෙබ් අඩවියට ස්ටයිල්ෂීට් එක ලින්ක් කිරීම(සම්බන්ධ කිරීම) පමණි, එය පහත පරිදි වේ.</p>
-						<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/koombiwebfont@latest/Koombiweb/stylesheet.css&quot;&gt;</code>
-
-						<h2>3. ඔබේ වෙබ් අඩවියේ Stylesheet එක වෙනස් කරන්න</h2>
-						<p>ඔබගේ නව අකුරු වලින් ප්‍රයෝජන ගැනීමට, ඔබ ඒවා භාවිතා කරන ලෙස ඔබේ stylesheet එකට පැවසිය යුතුය. ඉහත මුල් @font-face ප්‍රකාශය දෙස බලා "font-family" නම් property එක සොයා ගන්න. එහි සම්බන්ධ කර ඇති නම ඔබ අකුරු යොමු කිරීමට භාවිතා කරන දේ වනු ඇත. ඔබට වෙනස් කිරීමට අවශ්‍ය තේරීම් කාරකය තුළ, "font-family" දේපලෙහි ඇති අකුරු තොගයට එම වෙබ් අකුරු නාමය පෙරවති. උදාහරණ වශයෙන්:</p>
-						<code>p { font-family: koombiweb; }</code>
-
-						<h2>4. පරීක්ෂණය</h2>
-						<p>හරස් බ්‍රවුසරයේ වැඩ කිරීමට වෙබ් අකුරු ලබා ගැනීම උපක්‍රමශීලී විය හැක . විශේෂිත බ්‍රවුසරයක අකුරු පූරණය නොවන බව ඔබ සොයා ගන්නේ නම් ඔබට උදවු කිරීමට පැති තීරුවේ ඇති තොරතුරු භාවිත කරන්න.</p>
-					</div>
-
 					<div class="grid5 sidebar">
 						<div class="box">
 							<h2>Troubleshooting<br />Font-Face Problems</h2>
@@ -1231,7 +1190,7 @@
 
 		</div>
 		<div id="footer">
-			<p>&copy; Copyright 2021, <a href="https://github.com/koombitool">Koombitool</a> And The Contribution Of <a href="https://github.com/koombitool/sinhalawebfonts">SinhalaWebFont Project.</a></p>
+			<p>෴ (2021 - 2024) <a href="https://github.com/koombitool">Koombitool</a>෴ </p>
 		</div>
 	</div>
 
